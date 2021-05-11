@@ -1,0 +1,66 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <title>Pagina Principal</title>
+    <meta content="Antonio Carbel y Luciano Dovidio" name="author">
+    <meta content="calculadora, cilindros, cilindrada" name="keywords">
+    <link rel="icon" href="MediaFiles/faviconengine.png">
+
+    <link rel="stylesheet" href="ProyectCompresion.css">
+    <link rel="preconnect" href="https://fonts.gstatic.com">
+    <link href="https://fonts.googleapis.com/css2?family=Audiowide&family=Racing+Sans+One&display=swap" rel="stylesheet">
+    <link rel="preconnect" href="https://fonts.gstatic.com">
+    <link href="https://fonts.googleapis.com/css2?family=Iceberg&display=swap" rel="stylesheet">
+    <link rel="preconnect" href="https://fonts.gstatic.com">
+    <link href="https://fonts.googleapis.com/css2?family=Poiret+One&display=swap" rel="stylesheet">
+</head>
+<body>
+
+
+<div class="head" id="head">
+    <h1>RELACION DE COMPRESION</h1>
+</div>
+
+<div class="video3d" id="video3d">
+    <video src="MediaFiles/motor3d.mp4" height="300" controls autoplay muted></video>
+</div>
+
+
+<aside id="videoyt" class="videoyt">
+    <iframe width="560" height="315" src="https://www.youtube.com/embed/QjiDbjphnpk" title="YouTube video player" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture"></iframe>
+</aside>
+
+
+<br>
+
+
+<div class="cantcil">
+    <label for="cantcil">Ingrese Cantidad de Cilindros</label>
+    <input type="number" name="cantcil" id="cantcil" placeholder="Cilindros" required>
+</div>
+
+
+<br>
+
+
+<div class="cc">
+    <label for="cc">Ingrese Cilindrada de su Motor</label>
+    <input type="text" name="cc" id="cc" placeholder="cc">
+</div>
+
+
+<br><br><br>
+
+
+<button class="calcular">
+    <p><b>CALCULAR</b></p>
+</button>
+
+<canvas id="myCanvas" width="200" height="100">
+    Your browser does not support the HTML5 canvas tag.
+</canvas>
+
+
+</body>
+</html>
