@@ -12,7 +12,7 @@ Estructura de Proyecto Lab de Compu II - 2021
 |-------|---------|
 |2013109@uc.edu.ar|Luciano|
 
-Link del Proyecto: [Relacion de Compresion](https://ucc-labcompu2.github.io/proyecto2021-carbel-dovidio/index)
+Link del Proyecto: [Relacion de Compresion](https://lucianodovidio.github.io/Proyecto-Carbel-Dovidio-Final/indexfinal)
 
 
 ### Requisitos del Primer Parcial
