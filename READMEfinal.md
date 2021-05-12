@@ -10,7 +10,8 @@ Estructura de Proyecto Lab de Compu II - 2021
 ## Contenido
 | Email | Autores |
 |-------|---------|
-|2013109@uc.edu.ar|Luciano|
+|2013109@ucc.edu.ar|Luciano|
+|2000957@ucc.edu.ar|Antonio|
 
 Link del Proyecto: [Relacion de Compresion](https://lucianodovidio.github.io/Proyecto-Carbel-Dovidio-Final/indexfinal)
 
