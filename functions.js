@@ -2,7 +2,7 @@
  * Calculadora de Compresion de un motor.
  * @method ampliarR
  * @param {string} id - El id de los inputs cantcil,cc.
- * @param ´{number} valor - El valor de los inputs de cantcil, cc.
+ * @param {number} valor - El valor de los inputs de cantcil, cc.
  */
 
 function ampliarR(){
