@@ -5,7 +5,6 @@
  * @param ´{number} valor - El valor de los inputs de cantcil, cc.
  */
 
-
 function ampliarR(){
 
     var cantcilindros, cilindrada, resultado;
