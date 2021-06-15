@@ -33,7 +33,7 @@ function animarPiston(){
     var canvas = document.getElementById("myCanvas");
     var ctx = canvas.getContext("2d");
     var resultado = ampliarR();
-
+    var decimal = resultado.toFixed(2);
     canvas.width=canvas.width;
 
 
@@ -60,6 +60,6 @@ function animarPiston(){
 
     ctx.font = "italic small-caps bold 20px arial";
     ctx.fillStyle= "white";
-    ctx.fillText(resultado + " : 1",250,55);
+    ctx.fillText(decimal + " : 1",250,55);
 }
 
