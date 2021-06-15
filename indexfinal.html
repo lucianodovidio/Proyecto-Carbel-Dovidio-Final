@@ -54,7 +54,7 @@
 
 <div class="cantcil">
     <label for="cantcil">Ingrese Cantidad de Cilindros</label>
-    <input type="number" name="cantcilindros" id="cantcil" placeholder="Cilindros" onchange="calcularComp()">
+    <input type="number" name="cantcilindros" id="cantcil" placeholder="Cilindros" onchange="calcularComp(this.id, this.value)">
 </div>
 
 
@@ -67,7 +67,7 @@
 
 <div class="cc">
     <label for="cc">Ingrese Cilindrada de su Motor</label>
-    <input type="text" name="cilindrada" id="cc" placeholder="cc" onchange="calcularComp()">
+    <input type="text" name="cilindrada" id="cc" placeholder="cc" onchange="calcularComp(this.id, this.value)">
 </div>
 
 
@@ -79,16 +79,18 @@
 
 <div class="result">
     <label for="resultComp">Relacion de compresion</label>
-    <input id="resultComp" type="text" name="resultadoo" disabled>
+    <input id="resultComp" type="text" name="resultadoo" placeholder=": 1" disabled>
 </div>
 
-e
+
 
 <div id="cont">
     <button class="buttonamp" onclick="ampliarR()"><b>CALCULAR</b></button>
 </div>
 
-
+<canvas id="myCanvas" class="ejer" width="500px" height="200px">
+    ilustracion.
+</canvas>
 
 </body>
 </html>
