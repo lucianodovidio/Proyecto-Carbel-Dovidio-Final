@@ -2,6 +2,10 @@
 <project version="4">
   <component name="ChangeListManager">
     <list default="true" id="fb27f4ec-0dd0-4af9-bdcd-02c7bcc31042" name="Default Changelist" comment="">
+      <change afterPath="$PROJECT_DIR$/functions.js" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/shelf/Uncommitted_changes_before_Update_at_9_6_2021_12_38__Default_Changelist_.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/shelf/Uncommitted_changes_before_Update_at_9_6_2021_12_38__Default_Changelist_.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/shelf/Uncommitted_changes_before_Update_at_9_6_2021_12_38__Default_Changelist_1.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/shelf/Uncommitted_changes_before_Update_at_9_6_2021_12_38__Default_Changelist_1.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/MediaFiles/piston.jpg" beforeDir="false" />
       <change beforePath="$PROJECT_DIR$/ProyectCompresion.css" beforeDir="false" afterPath="$PROJECT_DIR$/ProyectCompresion.css" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/indexfinal.html" beforeDir="false" afterPath="$PROJECT_DIR$/indexfinal.html" afterDir="false" />
     </list>
@@ -22,7 +26,7 @@
     <property name="RunOnceActivity.OpenProjectViewOnStart" value="true" />
     <property name="RunOnceActivity.ShowReadmeOnStart" value="true" />
     <property name="WebServerToolWindowFactoryState" value="false" />
-    <property name="last_opened_file_path" value="$PROJECT_DIR$/../ejercicios2021-AntonioCarbel" />
+    <property name="last_opened_file_path" value="$PROJECT_DIR$" />
     <property name="nodejs_package_manager_path" value="npm" />
     <property name="vue.rearranger.settings.migration" value="true" />
   </component>
@@ -47,6 +51,7 @@
       <workItem from="1623444849061" duration="77000" />
       <workItem from="1623449139450" duration="616000" />
       <workItem from="1623527435440" duration="4688000" />
+      <workItem from="1623770383956" duration="305000" />
     </task>
     <servers />
   </component>

@@ -14,57 +14,80 @@
     <link href="https://fonts.googleapis.com/css2?family=Iceberg&display=swap" rel="stylesheet">
     <link rel="preconnect" href="https://fonts.gstatic.com">
     <link href="https://fonts.googleapis.com/css2?family=Poiret+One&display=swap" rel="stylesheet">
+    <script type="text/javascript" src="functions.js"></script>
 </head>
 <body>
 
-<div class="head" id="head">
+<header class="head" id="head">
     <h1>RELACION DE COMPRESION</h1>
-    <img src="MediaFiles/piston.jpg" width="100" height="100" >
+</header>
 
+<div class="img">
+    <img src="MediaFiles/piston.png" width="100" height="100">
 </div>
-
-
 <div class="video3d" id="video3d">
     <video src="MediaFiles/motor3d.mp4" height="300" controls autoplay muted></video>
 </div>
 
-
 <aside id="videoyt" class="videoyt">
-    <iframe width="560" height="315" src="https://www.youtube.com/embed/QjiDbjphnpk" title="YouTube video player" <fame frameborder="0"> allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture"></iframe>
+    <iframe width="560" height="315" src="https://www.youtube.com/embed/QjiDbjphnpk" title="YouTube video player" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture"></iframe>
 </aside>
 
 
+
+
+
+
+
+
+
 <br>
+
+
+
+
+
+
+
 
 
 <div class="cantcil">
     <label for="cantcil">Ingrese Cantidad de Cilindros</label>
-    <input type="number" name="cantcil" id="cantcil" placeholder="Cilindros" required>
+    <input type="number" name="cantcilindros" id="cantcil" placeholder="Cilindros" onchange="calcularComp()">
 </div>
+
+
 
 
 <br>
 
 
+
+
 <div class="cc">
     <label for="cc">Ingrese Cilindrada de su Motor</label>
-    <input type="text" name="cc" id="cc" placeholder="cc">
+    <input type="text" name="cilindrada" id="cc" placeholder="cc" onchange="calcularComp()">
 </div>
+
+
 
 
 <div id="boxverti"></div>
 
 
+
+<div class="result">
+    <label for="resultComp">Relacion de compresion</label>
+    <input id="resultComp" type="text" name="resultadoo" disabled>
+</div>
+
+e
+
 <div id="cont">
-    <canvas id="buttoncanvas"></canvas>
-
-    <button class="buttonamp" onclick="ampliar()"><b>CALCULAR</b></button>
-
+    <button class="buttonamp" onclick="ampliarR()"><b>CALCULAR</b></button>
 </div>
 
 
 
 </body>
-
-<canvas id="myCanvas" width="200" height="100" ></canvas>
 </html>
