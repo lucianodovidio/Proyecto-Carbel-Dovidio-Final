@@ -3,6 +3,7 @@
  * @method ampliarR
  * @param {string} id - El id de los inputs cantcil,cc.
  * @param {number} valor - El valor de los inputs de cantcil, cc.
+ * @return resultado
  */
 
 function ampliarR(){
@@ -21,8 +22,8 @@ function ampliarR(){
     }else{
         resultado = ((cilindrada / cantcilindros) + cantcilindros * 10) / (cantcilindros * 10);
         document.getElementsByName("resultadoo")[0].value = resultado;
+        return resultado;
     }
-
 }
 
 
@@ -31,6 +32,7 @@ dy=2;
 function animarPiston(){
     var canvas = document.getElementById("myCanvas");
     var ctx = canvas.getContext("2d");
+    var resultado = ampliarR();
 
     canvas.width=canvas.width;
 
@@ -48,12 +50,16 @@ function animarPiston(){
         ctx.drawImage(img2, 0, 15);
     }
 
-
+    var t=5;
 
     if(y>120){
         y=0;
     }
 
     y+=dy;
+
+    ctx.font = "italic small-caps bold 20px arial";
+    ctx.fillStyle= "white";
+    ctx.fillText(resultado + " : 1",250,55);
 }
 
