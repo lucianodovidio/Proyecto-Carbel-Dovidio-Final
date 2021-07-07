@@ -40,7 +40,7 @@
 
 <div class="cantcil">
     <label for="cantcil">Ingrese Cantidad de Cilindros</label>
-    <input type="number" name="cantcilindros" id="cantcil" placeholder="Cilindros" onchange="calcularComp(this.id, this.value)">
+    <input type="number" name="cantcilindros" id="cantcil" placeholder="Cilindros" onchange="ampliarR(this.id, this.value)">
 </div>
 
 
@@ -49,7 +49,7 @@
 
 <div class="cc">
     <label for="cc">Ingrese Cilindrada de su Motor</label>
-    <input type="text" name="cilindrada" id="cc" placeholder="cc" onchange="calcularComp(this.id, this.value)">
+    <input type="text" name="cilindrada" id="cc" placeholder="cc" onchange="ampliarR(this.id, this.value)">
 </div>
 
 
@@ -68,6 +68,10 @@
 
 <div id="cont">
     <button class="buttonamp" onclick="ampliarR();setInterval(animarPiston, 1)"><b>CALCULAR</b></button>
+</div>
+
+<div id="ref">
+    <button class="buttonref" onclick="refreshP()"><b>Refresh</b></button>
 </div>
 
 <canvas id="myCanvas" class="ejer" width="500px" height="250px">
